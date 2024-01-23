@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Open+Sans&display=swap"
         rel="stylesheet">
     <style>
-        #toggle:checked ~ label .toggle-circle {
+        #toggle:checked~label .toggle-circle {
             transform: translateX(12px);
         }
     </style>
@@ -101,11 +101,15 @@
         <span class="text-sm text-slate-500 ml-2">Dark</span>
     </div>
 
-    <button class="my-10 bg-sky-500 px-5 py-2 rounded-full text-white font-semibold font-inter block mx-auto hover:bg-sky-600 active:bg-sky-700 focus:ring focus:ring-sky-300 dark:bg-slate-300 dark:text-slate-800 dark:hover:text-slate-900 dark:hover:bg-slate-100">Simpan</button>
+    <button
+        class="my-10 bg-sky-500 px-5 py-2 rounded-full text-white font-semibold font-inter block mx-auto hover:bg-sky-600 active:bg-sky-700 focus:ring focus:ring-sky-300 dark:bg-slate-300 dark:text-slate-800 dark:hover:text-slate-900 dark:hover:bg-slate-100">Simpan</button>
 
-    <div class="max-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 shadow-md hover:bg-sky-500 group font-serif dark:hover:bg-slate-300">
-        <h5 class="font-bold text-slate-700 text-lg mb-3 group-hover:text-white dark:group-hover:text-slate-800">My Card</h5>
-        <p class="text-slate-600 group-hover:text-white selection:bg-lime-300 selection:text-slate-900 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:float-left first-letter:mr-3 dark:group-hover:text-slate-800">
+    <div
+        class="max-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 shadow-md hover:bg-sky-500 group font-serif dark:hover:bg-slate-300">
+        <h5 class="font-bold text-slate-700 text-lg mb-3 group-hover:text-white dark:group-hover:text-slate-800">My Card
+        </h5>
+        <p
+            class="text-slate-600 group-hover:text-white selection:bg-lime-300 selection:text-slate-900 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:float-left first-letter:mr-3 dark:group-hover:text-slate-800">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, harum! Exercitationem minus architecto
             porro aspernatur magnam quas ut similique ullam, at excepturi eum velit necessitatibus enim ab fuga beatae
             adipisci?
@@ -115,35 +119,65 @@
     <div class="max-w-lg border border-slate-200 rounded-xl mx-auto shadow-md font-inter p-5">
         <form>
             <label for="email">
-                <span class="block font-semibold mb-1 text-slate-700 after:content-['*'] after:text-pink-500 after:ml-0.5">Email</span>
-                <input type="email" id="email" placeholder="Masukkan email..." class="px-3 py-2 border shadow rounded w-full block text-sm placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 invalid:text-pink-700 invalid:focus:ring-pink-700 invalid:focus:border-pink-700 peer">
+                <span
+                    class="block font-semibold mb-1 text-slate-700 after:content-['*'] after:text-pink-500 after:ml-0.5">Email</span>
+                <input type="email" id="email" placeholder="Masukkan email..."
+                    class="px-3 py-2 border shadow rounded w-full block text-sm placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 invalid:text-pink-700 invalid:focus:ring-pink-700 invalid:focus:border-pink-700 peer">
                 <p class="text-sm m-1 text-pink-700 invisible peer-invalid:visible">Email tidak valid</p>
             </label>
         </form>
     </div>
-    
+
     <hr class="my-20">
 
-    <div class="w-40 h-40 bg-sky-500 mx-auto rounded-lg shadow-lg hover:scale-125 hover:rotate-180 hover:bg-pink-500 transition origin-top-left"></div>
+    <div
+        class="w-40 h-40 bg-sky-500 mx-auto rounded-lg shadow-lg hover:scale-125 hover:rotate-180 hover:bg-pink-500 transition origin-top-left">
+    </div>
 
     <div class="w-40 h-40 mx-auto mt-20 group">
-        <div class="w-full h-full bg-sky-500 rounded-lg shadow-lg group-hover:rotate-180 origin-top-left transition duration-1000 delay-1000"></div>
+        <div
+            class="w-full h-full bg-sky-500 rounded-lg shadow-lg group-hover:rotate-180 origin-top-left transition duration-1000 delay-1000">
+        </div>
     </div>
 
     <div class="w-40 h-40 bg-pink-500 mx-auto rounded-lg shadow-lg mt-20 animate-wiggle"></div>
 
+    <hr class="my-20 border-t-4">
+
+    <div class="container px-5 mx-auto">
+        <div class="border rounded-lg shadow-lg p-10 relative">
+            <div class="w-10 h-10 bg-sky-200 rounded-full flex fixed bottom-5 right-5 cursor-pointer">
+                <a href="#" class="text-xl m-auto">
+                    🔝
+                </a>
+            </div>
+            <img src="img/2.jpg" alt="image" width="150" class="float-left mr-3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, sit provident, ab ad delectus, culpa animi
+                distinctio perspiciatis autem modi iure! Tenetur sint, accusamus minima ut nesciunt, rerum dignissimos
+                assumenda, totam enim earum magnam fugit. Veritatis, doloribus voluptatum facere perferendis quos, quo
+                saepe aliquid animi accusantium, harum deleniti nihil sequi!</p>
+        </div>
+    </div>
+
+    <div class="container mx-auto border rounded-lg shadow-lg p-10 mt-20 columns-3">
+        <img src="http://source.unsplash.com/600x400?gaming" alt="Image1" class="mb-4">
+        <img src="http://source.unsplash.com/600x400?sport" alt="Image2" class="mb-4">
+        <img src="http://source.unsplash.com/600x400?food" alt="Image3" class="mb-4">
+        <img src="http://source.unsplash.com/600x400?music" alt="Image4" class="mb-4">
+        <img src="http://source.unsplash.com/600x400?programming" alt="Image5" class="mb-4">
+        <img src="http://source.unsplash.com/600x400?computer" alt="Image6" class="mb-4">
+    </div>
+
     <div class="mb-96"></div>
-
-
-
 
     <script>
         const checkbox = document.querySelector('#toggle');
         const html = document.querySelector('html');
 
-        checkbox.addEventListener('click', function() {
+        checkbox.addEventListener('click', function () {
             checkbox.checked ? html.classList.add('dark') : html.classList.remove('dark')
         })
     </script>
 </body>
+
 </html>
